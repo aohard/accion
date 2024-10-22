@@ -10,32 +10,34 @@
 
     <div class="contenedor">
         <div class="campo">
-            <label for="lista1">Motivo de baja:</label>
+            <label for="lista1">Acción:</label>
             <select id="lista1" onchange="actualizarLista2()">
                 <option value="">Seleccionar...</option>
-                <option value="administrativa">BAJA ADMINISTRATIVA</option>
-                <option value="instalacion">INSTALACION</option>
-                <option value="economicos">PROBLEMAS ECONÓMICOS</option>
-                <option value="mudanza">MUDANZA</option>
-                <option value="tecnicos">PROBLEMAS TÉCNICOS</option>
+                <option value="retencion">Retención</option>
+                <option value="retencion_bonificacion">Retención con bonificación</option>
+                <option value="retencion_downselling">Retención con baja parcial (DOWNSELLING)</option>
+                <option value="retencion_downgrade_parcial">Retención con baja parcial (DOWNGRADE)</option>
+                <option value="retencion_downgrade_servicios">Retención con baja servicios (DOWNGRADE)</option>
+                <option value="retencion_producto">Retención con producto</option>
+                <option value="consultas">Consultas</option>
+                <option value="baja_parcial">Baja Parcial</option>
+                <option value="baja_total">Baja Total</option>
+                <option value="recupero_baja">Recupero de baja</option>
             </select>
         </div>
 
         <div class="campo">
-            <label for="lista2">Submotivo de baja</label>
+            <label for="lista2">Resultado de gestión:</label>
             <select id="lista2">
                 <option value="">Seleccionar...</option>
             </select>
         </div>
 
-        
-
-        <p>CADA MOTIVO DE BAJA TENDRÁ SUS PROPIOS SUBMOTIVOS</p>
+        <!-- Nuevo contenedor para la descripción -->
+        <div id="descripcion" class="descripcion">
+            <!-- La descripción se mostrará aquí -->
+        </div>
     </div>
-
-
-    
-    
 
     <script src="js/script.js"></script>
 

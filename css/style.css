@@ -109,3 +109,14 @@ select:focus {
         padding: 6px;
     }
 }
+
+.descripcion {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+    color: #555;
+}
