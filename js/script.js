@@ -42,18 +42,17 @@ const opciones = {
 
 // Definir las descripciones de cada opción en la lista1
 const descripciones = {
-    retencion: "La retención implica conservar al cliente ofreciéndole soluciones para evitar la baja.",
-    retencion_bonificacion: "Retención con bonificación ofrece un descuento o un beneficio adicional para conservar al cliente.(solo catv)",
-    retencion_downselling: "Baja parcial de alguno de los Servicios principales.",
-    retencion_downgrade_parcial: "Baja de Servicios Adicionales o baja de categoría en los productos que tiene activos el cliente",
-    retencion_downgrade_servicios: "Retención con reducción de servicios para ajustar a la necesidad del cliente.",
-    retencion_producto: "Retención mediante la oferta o mejora de un producto para evitar la baja.",
-    consultas: "Resolucion de consultas generales o sobre el estado de una gestión",
-    baja_parcial: "Al elegir la acción BAJA PARCIAL se habilita la posibilidad de seleccionar cada uno de los servicios que el cliente desee dar de baja.",
-    baja_total: "Al elegir la acción BAJA TOTAL  automáticamente CRM selecciona todos los servicios que tiene contratados el cliente y no podrán marcarse ni desmarcarse de manera individual",
-    recupero_baja: "Recuperación del cliente luego de haber solicitado la baja, en estado pendiente."
+    retencion: "Seleccioná esta opción cuando le ofrezcas una solución para evitar la baja.",
+    retencion_bonificacion: "Seleccioná esta opción cuando le ofrezcas un descuento o beneficio adicional (Solo Cl CATV).",
+    retencion_downselling: "Seleccioná esta opción cuando apliques la baja de alguno de los servicios principales.",
+    retencion_downgrade_parcial: "Seleccioná esta opción cuando gestiones la baja de servicios adicionales o cuando aplicamos reducción de la calidad de alguno de los servicios.",
+    retencion_downgrade_servicios: "Seleccioná esta opción cuando gestiones la baja de algún servicio principal.",
+    retencion_producto: "Seleccioná esta opción cuando apliques una oferta o mejores alguno de los productos.",
+    consultas: "Seleccioná esta opción cuando realices alguna consulta general o sobre algún estado.",
+    baja_parcial: "Seleccioná esta opción cuando necesites procesar la baja de algunos de los servicios del cliente.",
+    baja_total: "Seleccioná esta opción cuando necesites procesar la baja total de los servicios.",
+    recupero_baja: "Seleccioná esta opción cuando proceses la gestión de recupero en clientes que habían solicitado la baja."
 };
-
 // Función para actualizar la segunda lista desplegable según la opción seleccionada en la primera lista
 function actualizarLista2() {
     // Obtener la referencia a las listas desplegables
